@@ -65,8 +65,8 @@ def concat_video(video_list=None, dest_video=""):
 if __name__ == '__main__':
 
     """
-    head_file = r"F:\作品\孩子学习注意力不集中该如何解决？\video_head.mp4"
-    scene_file = r"F:\作品\孩子学习注意力不集中该如何解决？\Scene_父母看手机，孩子在学习\scene_video.mp4"
+    head_file = r"\video_head.mp4"
+    scene_file = r"\scene_video.mp4"
 
     info_head = ffmpeg.probe(head_file)
     info_scene = ffmpeg.probe(scene_file)
